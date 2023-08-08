@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(75, 73, 73);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.every {
+    background-image: url(../img/dark_tint.png),url(../img/pompeii2.jpg);
+    background-size: cover;
+    background-position: right;
+    margin: 50px;
+    border-radius: 25px;
+    height: 1012PX;
+}
+.menu {
+    display: inline-block;
+    width: 20%;
+    margin-top: 0;
+}
+.main {
+    display: inline-block;
+    width: 79%;
+}
+.to-main {
+    padding: 30px 30px 30px 10px;
+}
+.menu-navbar {
+    padding:30px 30px ;
+    border-right: 1px solid rgb(88, 88, 88);
+}
+.container img {
+    width: 500px;
+    height: 250px;
+}
+.movies {
+    width: 100px;
+    height: 200px;
+}
+.content {
+    display: inline-block;
+    text-align: center;
+}
+.navbar {
+    margin-bottom: 442px;
+}
+.navbar h1 {
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+.gll {
+    border-bottom: 1px solid rgb(88, 88, 88);
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.gll li {
+    padding: 20px 0;
+}
+.gll i {
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 20px;
+}
+.gll li .fa-home {
+    color: white;
+}
+.gll li a {
+    color: #ffffff;
+    transition: 1s;
+}
+.gll li a:hover{
+    color: cornflowerblue;
+}
+.navbar h5 {
+    padding: 15px 0;
+    color: white;
+}
+.account-1 {
+    border-bottom: 1px solid rgb(88, 88, 88);
+    padding-bottom: 20px;
+}
+.account-1 li {
+    padding: 5px 0;
+    color: white;
+}
+.account-1 li a {
+    color: #ffffff;
+    transition: 1s;
+}
+.account-1 li a:hover {
+    color: coral;
+}
+.account-1 i {
+    padding-right: 10px;
+}
+.account-1 li .fa-user-circle {
+    color: rgba(255, 255, 255, 0.39);
+}
+.log-out {
+    margin-top: 445px;
+}
+.log-out ul li i {
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.39);
+}
+.log-out ul li a {
+    color: #ffffff;
+    transition: 1s;
+}
+.log-out ul li a:hover{
+    color: rgb(172, 46, 46);
+}
+.main-navbar  ul {
+    display: inline-block;
+}
+.main-navbar  ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.main-navbar input {
+    margin-right: 440px;
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #b4b4b4;
+    border: none;
+}
+.main-navbar ul li i {
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #ffffff;
+}
+.main-navbar ul li a {
+    color: aliceblue;
+    transition: 1s;
+}
+.main-navbar ul li a:hover {
+    color:orange ;
+}
+.main-navbar ul li:nth-child(1) {
+    border-radius: 10px;
+    background-color: #5e5e5e;
+}
+.container {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.container img {
+    width: 985px;
+    height: 520px;
+    border-radius: 15px;
+}
+.footer-navbar {
+    margin-bottom: 10px;
+}
+.footer-navbar h1,h5 {
+    display: inline-block;
+    color: #ffffff;
+}
+.footer-navbar h1 {
+    margin-right: 867px;
+    font-size: 25px;
+}
+.footer-navbar h5 a{
+    font-size: 15px;
+    color: #ffffff;
+    transition: 1s;
+}
+.footer-navbar h5 a:hover {
+    color:darkorange;
+}
+.footer-content {
+    text-align: center;
+}
+.content img {
+    width: 190px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 0 2px;
+}
+.content button {
+    display: block;
+    margin: auto;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #414141;
+    transition: 1s;
+}
+.content button:hover {
+    background-color: #ffffff;
+    color: #414141;
+}
+@media(max-width:1398px){
+    .content img {
+        width: 189px;
+    }
+    .menu-navbar {
+        padding: 30px 30px 15px 30px;
+    }
+    .navbar {
+        margin-bottom: 460px;
+    }
+    .footer-navbar h1 {
+        margin-right: 860px;
+    }
+}
+@media(max-width:1394px){
+    .main-navbar input {
+        margin-right: 439px;
+    }
+}
+@media(max-width:1392px){
+    .every {
+        width: 1000px;
+        margin: auto;
+    }
+    .menu {
+        width: 15%;
+    }
+    .menu-navbar {
+        padding-bottom: 28px;
+    }
+    .navbar {
+        margin-bottom: 447px;
+    }
+    .main {
+        width: 84%;
+    }
+    .main-navbar input {
+        margin-right: 257px;
+    }
+    .container img {
+        width: 795px;
+    }
+    .footer-navbar h1 {
+        margin-right: 675px;
+    }
+    .content img {
+        width: 152px;
+    }
+}
